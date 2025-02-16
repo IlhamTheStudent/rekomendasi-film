@@ -4,7 +4,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
 # Load dataset movie
-movie = pd.read_csv('D:/skripsi brok/SKRIPSI ILHAM/DEPLOY/movie recommender/movies_5000_v2.csv')
+movie = pd.read_csv('movies_5000_v2.csv')
 movie['overview'] = movie['overview'].fillna('')
 
 # Inisialisasi TF-IDF Vectorizer
